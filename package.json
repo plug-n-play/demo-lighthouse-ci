@@ -1,0 +1,27 @@
+{
+  "name": "demo-lighthouse-ci",
+  "version": "1.0.0",
+  "description": "Demo for Lighthouse CI using Github Actions",
+  "main": "lighthouserc.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plug-n-play/demo-lighthouse-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plug-n-play/demo-lighthouse-ci/issues"
+  },
+  "homepage": "https://github.com/plug-n-play/demo-lighthouse-ci#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
