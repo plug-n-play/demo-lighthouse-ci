@@ -1,13 +1,13 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: './public',
+      staticDistDir: "./",
     },
     upload: {
-      target: 'temporary-public-storage',
+      target: "temporary-public-storage",
     },
   },
   assert: {
-    preset: 'lighthouse:recommended',
+    preset: "lighthouse:recommended",
   },
 };
