@@ -1,13 +1,14 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: './public',
+      url: ["http://localhost:3000/"],
+      startServerCommand: "npm install && npm start",
     },
     upload: {
-      target: 'temporary-public-storage',
+      target: "temporary-public-storage",
     },
   },
   assert: {
-    preset: 'lighthouse:recommended',
+    preset: "lighthouse:recommended",
   },
 };
