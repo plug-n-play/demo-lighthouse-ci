@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/plug-n-play/demo-lighthouse-ci#readme",
   "dependencies": {
-    "next": "^9.4.4",
+    "next": "^11.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
